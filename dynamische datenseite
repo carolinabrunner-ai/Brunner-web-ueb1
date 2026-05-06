@@ -8,7 +8,7 @@
 <ul id="liste-linz"></ul> 
 <script>
   // Lokale Daten
-  const stadtteile = ["Urfahr", "Innere Stadt", "Bindermichel"];
+  const stadtteile = ["Urfahr", "Innere Stadt", "Bindermichel", "Caro", "Babsi"];
   const liste = document.getElementById("liste-linz");
   stadtteile.forEach(s => {
     let li = document.createElement("li");
